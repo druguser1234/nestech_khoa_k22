@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.wrapper {
+    width: 50%;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    display: grid;
+}
+
+.about {
+    width: 10px;
+    display: flex;
+}
+
+.about-content {
+    align-items: center;
+    font-size: larger;
+    width: 100%;
+    padding-left: 2px;
+}
+
+.about-img img {
+    width: 600px;
+    height: 400px;
+}
+
+.img-content {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    background-color: black;
+}
+
+.column img {
+    width: 100%;
+    min-height: 900px;
+}
+
+.wrapperfloor1 {
+    width: 100%;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.wrapperfloor2a {
+    width: 30%;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    display: grid;
+}
+
+.floor2a {
+    float: left;
+    width: 30%;
+    background-color: black;
+}
+
+.floor2a img {
+    width: 100px;
+    height: 600px;
+}
+
+.wrapperfloor2b {
+    width: 70%;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    display: grid;
+}
+
+.a1 {
+    width: 70%;
+    height: 600px;
+}
+
+.a2 {
+    width: 70%;
+    height: 600px;
+}
+
+.a3 {
+    width: 70%;
+    height: 600px;
+}
+
+.a4 {
+    width: 70%;
+    height: 600px;
+}
